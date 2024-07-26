@@ -33,7 +33,7 @@ const routes = [
         component: () => import('@/view/Software.vue'),
         redirect: '/software/smartTown',
         meta: {
-          title: '软件产品'
+          title: '特色产品'
         },
         children: [
           {
@@ -41,7 +41,7 @@ const routes = [
             name: 'smartTown',
             component: () => import('@/view/Software_smartTown.vue'),
             meta: {
-              title: '软件产品丨智能小镇管理系统'
+              title: '特色产品丨智能工厂'
             }
           },
           {
@@ -49,7 +49,7 @@ const routes = [
             name: 'bigData',
             component: () => import('@/view/Software_bigData.vue'),
             meta: {
-              title: '软件产品丨大数据管理系统'
+              title: '特色产品丨服装设计'
             }
           }
         ]

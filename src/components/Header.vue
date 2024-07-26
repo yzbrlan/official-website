@@ -12,13 +12,12 @@
         <div class="shejiao pull-right">
           <span class="glyphicon glyphicon-hand-right"></span>赶快联系我们吧！
           <span class="glyphicon glyphicon-hand-left"></span>
-
-          <a
-            href="https://github.com/neveryu"
+          <!-- <a
+            href="https://github.com/yzbrlan"
             target="_blank"
             style="color: #fc5531; font-size: 18px; cursor: pointer"
             >Github</a
-          >
+          > -->
         </div>
       </div>
     </div>
@@ -110,24 +109,24 @@ const navList = [
     children: []
   },
   {
-    name: '软件产品',
+    name: '特色产品',
     path: '/software',
     children: [
       {
-        name: '智能小镇管理系统',
+        name: '智能工厂',
         path: '/software/smartTown'
       },
       {
-        name: '大数据管理系统',
+        name: '服装设计',
         path: '/software/bigData'
       }
     ]
   },
-  {
-    name: '相关服务',
-    path: '/service',
-    children: []
-  },
+  // {
+  //   name: '相关服务',
+  //   path: '/service',
+  //   children: []
+  // },
   {
     name: '新闻动态',
     path: '/newsinformation',
@@ -138,11 +137,11 @@ const navList = [
     path: '/companyintroduction',
     children: []
   },
-  {
-    name: '工作机会',
-    path: '/jobchance',
-    children: []
-  },
+  // {
+  //   name: '工作机会',
+  //   path: '/jobchance',
+  //   children: []
+  // },
   {
     name: '联系我们',
     path: '/contactus',
@@ -215,8 +214,9 @@ function menuClick() {
 
 #header .header-nav .header-nav-wrapper {
   line-height: 110px;
-  float: right;
+  float: left;
   margin: 0;
+  margin-left: 25%;
   max-width: 800px;
 }
 
